@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.pic{
+  height: 10%;
+  width: 10%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+.pic2{
+  height: 10%;
+  width: 10%;
+  margin-right: 12%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+.inputDiv{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+#horoOutput{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

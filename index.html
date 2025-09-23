@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Horoscope</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header></header>
+		<div>
+			<img class="pic" src="img/Perona.webp"/>
+			
+		</div>
+		<div class="inputDiv">
+			<p>Enter your birthdate</p>
+			<input id="monthInput" type="number" placeholder="Month" min="1" max="12">
+			<input id="dayInput" type="number" placeholder="Day" min="1" max="31">
+			
+			<!-- <input id="dateInput" type="date" id="DOB"> -->
+			<input id="btn" type="button" value="Find out your Horoscope">
+		</div>
+		<div id="output">
+			<div class="pic2">
+				<img src="img/Horoscope.png">
+			</div>
+			<div class="horoTextDiv">
+				<p id="horoOutput"></p>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
