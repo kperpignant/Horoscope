@@ -1,2 +1,8 @@
-# Horoscope
-A Horoscope program
+# \# Horoscope
+
+# \## A Horoscope program
+
+# \### Enter your birth date and find out your sign
+
+# \#### Written in JavaScript, HTML and CSS
+
